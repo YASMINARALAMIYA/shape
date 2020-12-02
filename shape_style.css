@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding:0;
+}
+.square{
+	width:200px;
+	height:200px;
+	background-color:#040B4C;
+	display:inline-block;
+}
+.circle{
+	width:200px;
+	height:200px;
+	background-color:#E7D715;
+	border-radius:50%;
+	display:inline-block;
+}
+
+.triangle-up{
+	width:0;
+	height:0;
+	border-bottom:200px solid #040B4C;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	
+}
+.triangle-down{
+	width:0;
+	height:0;
+	border-top:200px solid #040B4C;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+}
+
+
+.triangle-up{
+	width:0;
+	height:0;
+	border-bottom:200px solid #040B4C;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	
+}
+.triangle-down{
+	width:0;
+	height:0;
+	border-top:200px solid #040B4C;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+}
+.green{
+	background-color:#137E02 ;
+	width:400px;
+	height:200px;
+	overflow:hidden;
+	position:relative;
+	border-radius:20px;
+	border:4px black;
+}
+
+.green{
+	background-color:#137E02 ;
+	width:400px;
+	height:200px;
+	overflow:hidden;
+	position:relative;
+	border-radius:20px;
+	border:4px black;
+}
+.red{
+	background-color:#E73E15 ;
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	position:absolute;
+}
+
